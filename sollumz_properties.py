@@ -39,9 +39,11 @@ class SollumType(str, Enum):
     BOUND_POLY_TRIANGLE = "sollumz_bound_poly_triangle"
 
     NAVMESH = "sollumz_navmesh"
-    NAVMESH_POLY_MESH = "sollumz_navmesh_mesh"
-    NAVMESH_PORTAL = "sollumz_navmesh_portal"
-    NAVMESH_POINT = "sollumz_navmesh_point"
+    NAVMESH_LINK_GROUP = "sollumz_navmesh_link_group"
+    NAVMESH_LINK = "sollumz_navmesh_link"
+    NAVMESH_LINK_TARGET = "sollumz_navmesh_link_target"
+    NAVMESH_COVER_POINT_GROUP = "sollumz_navmesh_point_group"
+    NAVMESH_COVER_POINT = "sollumz_navmesh_point"
 
     CLIP_DICTIONARY = "sollumz_clip_dictionary"
     CLIPS = "sollumz_clips"
@@ -245,9 +247,11 @@ SOLLUMZ_UI_NAMES = {
     SollumType.CHARACTER_CLOTH_MESH: "Character Cloth Mesh",
 
     SollumType.NAVMESH: "NavMesh",
-    SollumType.NAVMESH_POLY_MESH: "NavMesh Poly Mesh",
-    SollumType.NAVMESH_PORTAL: "NavMesh Portal",
-    SollumType.NAVMESH_POINT: "NavMesh Point",
+    SollumType.NAVMESH_LINK_GROUP: "NavMesh Link Group",
+    SollumType.NAVMESH_LINK: "NavMesh Link",
+    SollumType.NAVMESH_LINK_TARGET: "NavMesh Link Target",
+    SollumType.NAVMESH_COVER_POINT_GROUP: "NavMesh Cover Point Group",
+    SollumType.NAVMESH_COVER_POINT: "NavMesh Cover Point",
 
     SollumType.CLIP_DICTIONARY: "Clip Dictionary",
     SollumType.CLIPS: "Clips",
